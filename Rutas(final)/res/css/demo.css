@@ -1,0 +1,25 @@
+
+/********* CLEARFIX *********/
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+/*MANTIENE LA TABLA BONITA*/
+.cf:after {
+    clear:both;
+}
+
+/******** DEMO STYLES ********/
+.container {
+	margin:0 auto;
+	width:960px;
+}
+
+.btn {
+	background-color: #f6f6f6;
+	border: 1px solid #ccc;
+	
+}
+	
+

@@ -1,0 +1,81 @@
+/*
+ * Proyecto    : Monitoreo de Trafico Vehicular en Tiempo-Real para Semaforos Inteligentes basado en Mobile Phone Sensing
+ * Descripcion : Aplicacion proveedora de servicios web para visualizacion de informacion de unidades sensadas.
+ * Version     : 1.0
+ * Autor(es)   : Ana Karen Cordova Moran
+ * Creacion    : 02-07-2015
+ * Editado     : 03-07-2015
+ * Decripcion
+ * de clase    : Estilos utilizados en index.php.
+ * Copyright © 2015, Laboratorio de CPU
+ */
+
+#contenido {
+  height: 100%;
+  width: 95%;
+  margin-left: 2%;
+}
+
+#mapa-marcadores, #mapa-shapes, #mapa-dibujo, #signup, {
+	position: relative;
+  height: 100%;
+  width: 100%;
+  /*margin-left: 5%;*/
+  margin: 0px;
+  padding: 0px;
+	/*border: groove;*/
+}
+
+#map {
+  border: groove;
+  position: absolute;
+  height: 50%;
+  width: 96%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.campo {
+  overflow: hidden;
+  width: 100%;
+}
+
+.campo label {
+  color: black;
+  width: 20%;
+  display: block;
+  float: left;
+}
+
+
+
+.campo input[ type='text' ], select {
+  width: 40%;
+  float: left;
+  padding: 7px 4px;
+  border: 1px solid #f1f1d1;
+  border-radius: 4px;
+  color: black;
+}
+
+
+input[ type='button' ] {
+  background: #1E1E1E;
+  float: right
+	outline-color: #FFC278;
+	color: white;
+	font-family: calibri;
+	padding: 3px;
+	position: relative;
+	margin-top: 35%;
+}
+
+table{
+    font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+    font-size: 13px; margin-left: 45px; margin-top: 45px; width: 480px; text-align: left;border-collapse: collapse;
+    
+}
+ td{
+    padding: 8px; background: #e8edff; border-bottom: 1px solid #fff;
+    color: #669; border-top:1px solid transparent;
+}
